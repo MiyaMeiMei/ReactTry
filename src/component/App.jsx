@@ -1,5 +1,7 @@
 import logo from './../logo.svg';
 import './../App.css';
+import Piecharts from './Piecharts';
+import Table from './Table';
 
 function App() {
   return (
@@ -20,8 +22,10 @@ function App() {
 
   <div class="tab-content">
     <div id="home" class="container tab-pane active">
-      <h3>HOME</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <div>
+          <Piecharts></Piecharts>
+          <Table></Table>
+      </div>
     </div>
     <div id="menu1" class="container tab-pane fade">
       <h3>Menu 1</h3>

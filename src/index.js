@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './component/App';
+// import piecharts from './component/Piecharts';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
