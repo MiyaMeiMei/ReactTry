@@ -1,26 +1,25 @@
-import React, { Component } from 'react';
+import React, { Component, useState, useEffect, useMemo, useCallback } from 'react';
 import {AgGridColumn, AgGridReact} from 'ag-grid-react';
 
 import 'ag-grid-community/dist/styles/ag-grid.css';
 import 'ag-grid-community/dist/styles/ag-theme-alpine.css';
 
 
+function Table(props) {
 
-function Table() {
+    // const [rowData, setRowData] = useState(props.rowData);
+    // console.log(rowData);
 
-    const rowData = [
-        {make: "Toyota", model: "Celica", price: 35000},
-        {make: "Ford", model: "Mondeo", price: 32000},
-        {make: "Porsche", model: "Boxter", price: 72000}
-    ];
+    // const [columnDefs, setColumnsDefs] = useState(props.columnDefs);
+
+    // useEffect
+    const {rowData, columnDefs} = props;
 
     return (
         <div className="ag-theme-alpine" style={{height: 400, width: 600}}>
         <AgGridReact
-           rowData={rowData}>
-           <AgGridColumn field="make"></AgGridColumn>
-           <AgGridColumn field="model"></AgGridColumn>
-           <AgGridColumn field="price"></AgGridColumn>
+           rowData={rowData}
+           columnDefs={columnDefs}>
         </AgGridReact>
         </div>
     );

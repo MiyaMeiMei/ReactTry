@@ -1,5 +1,5 @@
-Key,Summary,IssueType,Component,Assignee,DevTeam,Resolution,QA Required,QA Contact,isLinkedTC,ReleaseDate,PendingTestDate,PendingTestLastWeek,Comment
-C158830-123456,Support new function,Story,Analytics-Common Component,Li Yang[ICG-IT],FE,Fixed,Yes,Zhu Dongmei[UCG-IT],Yes,2022-05-06,2022-05-03,Yes
-C158830-123457,add new group,Task,Analytics-Common Component,Zhu Kaishun[ICG-IT],FE,Fixed,Yes,Xu, Jingxiang[UCG-IT],Yes,2022-05-06,2022-05-01,No
-C158830-123458,load failed,Prod Issue,Analytics-Charting,Li Yang[ICG-IT],FE,Won't Do,Yes,Zhu Dongmei[UCG-IT],Yes,2022-05-06,2022-05-03,Yes,cannot reproduce
-C158830-123459,cannot open,Bug,Analytics-Charting,Zhao Wenwen[ICG-IT],BE,Won't Do,Yes,Zhu Dongmei[UCG-IT],Yes,2022-05-06,2022-05-03,Yes
+Key,Summary,IssueType,Component,Assignee,Role,Resolution,QA Required,QA Contact,isLinkedTC,FixVersion,ReleaseDate,isMajor,PendingTestDate,PendingTestLastWeek,Comment
+C158830-123456,Support new function,Story,Analytics-Common Component,Li Yang[ICG-IT],FE,Fixed,true,Zhu Dongmei[UCG-IT],Yes,Analytics-2022-05-06,2022-05-06,true,2022-05-03,true
+C158830-123457,add new group,Task,Analytics-Common Component,Zhu Kaishun[ICG-IT],FE,Fixed,true,Xu Jingxiang[UCG-IT],Yes,Analytics-2022-05-06,2022-05-06,true,2022-05-01,false
+C158830-123458,load failed,Prod Issue,Analytics-Charting,Li Yang[ICG-IT],FE,Won't Do,true,Zhu Dongmei[UCG-IT],Yes,Analytics-2022-05-13,2022-05-13,false,2022-05-03,true,cannot reproduce
+C158830-123459,cannot open,Bug,Analytics-Charting,Zhao Wenwen[ICG-IT],BE,Won't Do,true,Zhu Dongmei[UCG-IT],Yes,Analytics-2022-05-13,2022-05-13,false,2022-05-03,false
